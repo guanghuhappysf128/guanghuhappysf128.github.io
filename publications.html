@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-brand">Your Name</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Publications</h1>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Journal Articles</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Planning with Perspectives -- Decomposing Epistemic Planning using Functional STRIPS</h3>
+                    <p class="authors">Hu, Guang and Miller, Tim and Lipovetzky, Nir</p>
+                    <p class="venue">Journal of Artificial Intelligence Research (JAIR), Volume 75, Pages 489-539, October 2022</p>
+                    <p class="abstract">
+                        A novel approach to epistemic planning called planning with perspectives (PWP) that is both more 
+                        expressive and computationally more efficient than existing state-of-the-art epistemic planning tools. 
+                        The method decomposes epistemic planning by delegating reasoning about epistemic formulae to an external 
+                        solver using Functional STRIPS.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://www.jair.org/index.php/jair/article/view/13446" class="pub-link">JAIR</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <h3>Planning with Multi-Agent Belief Using Justified Perspectives</h3>
+                    <p class="authors">Hu, Guang and Miller, Tim and Lipovetzky, Nir</p>
+                    <p class="venue">Proceedings of the International Conference on Automated Planning and Scheduling (ICAPS), Volume 33, Number 1, Pages 180-188, July 2023</p>
+                    <p class="abstract">
+                        Extends the PWP model to handle multi-agent belief by following the intuition that agents believe 
+                        something they have seen until they see otherwise. Introduces the notion of justified perspectives and 
+                        demonstrates that the belief planner can solve benchmarks more efficiently than state-of-the-art baselines.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27193" class="pub-link">ICAPS</a>
+                        <a href="https://doi.org/10.1609/icaps.v33i1.27193" class="pub-link">DOI</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Conference Papers</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Modeling Higher-order Human Beliefs Using the Justified Perspective Model</h3>
+                    <p class="authors">Li, Wanchun and Zhang, Chenyuan and Li, Weijia and Hu, Guang and Xu, Yangmengfei</p>
+                    <p class="venue">Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25), 2025</p>
+                    <p class="abstract">
+                        Explores the feasibility of modeling higher-order human beliefs using the Justified Perspective (JP) model. 
+                        Proposes a novel processing algorithm inspired by Item Response Theory to estimate reasoning abilities based on 
+                        participants' responses to diverse reasoning scenarios. Demonstrates the promise of integrating epistemic planning 
+                        frameworks with human-centered applications.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.1145/3706599.3720223" class="pub-link">CHI</a>
+                        <a href="https://doi.org/10.1145/3706599.3720223" class="pub-link">DOI</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Theses</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Seen Is Believing: Modeling and Solving Epistemic Planning Problems using Justified Perspectives</h3>
+                    <p class="authors">Hu, Guang</p>
+                    <p class="venue">PhD Research Thesis, University of Melbourne, 2025</p>
+                    <p class="thesis-supervisors">Supervisors: Timothy Miller and Nir Lipovetzky</p>
+                    <p class="abstract">
+                        Extends the Justified Perspective model to develop a more efficient and effective framework for epistemic planning. 
+                        Introduces multiple semantic formats to clarify the balance between efficiency and completeness, and extends the 
+                        model to handle justified beliefs and group beliefs (distributed and common beliefs). Demonstrates that the approach 
+                        is both more efficient and expressive than the current state-of-the-art in epistemic planning.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://minerva-access.unimelb.edu.au/items/75481393-8690-4ec6-a4ba-be7c8891f7e6" class="pub-link">Thesis</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <h3>What you get is what you see: Decomposing Epistemic Planning using Functional STRIPS</h3>
+                    <p class="authors">Hu, Guang</p>
+                    <p class="venue">Master of Philosophy Research Thesis, University of Melbourne, 2020</p>
+                    <p class="thesis-supervisors">Supervisors: Timothy Miller and Nir Lipovetzky</p>
+                    <p class="abstract">
+                        Decomposes epistemic planning by delegating epistemic logic reasoning to an external solver using functional STRIPS. 
+                        Demonstrates how to model epistemic planning more expressively and efficiently by allowing modellers to provide 
+                        implementations of external functions that define what agents see in their environment. Results show that the approach 
+                        scales significantly better than state-of-the-art planners and can express problems more succinctly.
+                    </p>
+                    <div class="publication-links">
+                        <a href="http://hdl.handle.net/11343/235775" class="pub-link">Thesis</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Preprints & Technical Reports</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3>Beyond Static Assumptions: the Predictive Justified Perspective Model for Epistemic Planning</h3>
+                    <p class="authors">Hu, Guang and Li, Weijia and Xu, Yangmengfei</p>
+                    <p class="venue">CoRR, arXiv:2412.07941, 2024</p>
+                    <p class="abstract">
+                        Extends the Justified Perspective model with predictive capabilities for epistemic planning beyond static assumptions.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.48550/arXiv.2412.07941" class="pub-link">arXiv</a>
+                        <a href="https://doi.org/10.48550/arXiv.2412.07941" class="pub-link">DOI</a>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <h3>Where Common Knowledge Cannot Be Formed, Common Belief Can - Planning with Multi-Agent Belief Using Group Justified Perspectives</h3>
+                    <p class="authors">Hu, Guang and Miller, Tim and Lipovetzky, Nir</p>
+                    <p class="venue">CoRR, arXiv:2412.07981, 2024</p>
+                    <p class="abstract">
+                        Extends the Justified Perspective model to represent group beliefs, including distributed beliefs and common beliefs. 
+                        Addresses the limitations of common knowledge and demonstrates how common belief can be formed and represented in multi-agent planning scenarios.
+                    </p>
+                    <div class="publication-links">
+                        <a href="https://doi.org/10.48550/arXiv.2412.07981" class="pub-link">arXiv</a>
+                        <a href="https://doi.org/10.48550/arXiv.2412.07981" class="pub-link">DOI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

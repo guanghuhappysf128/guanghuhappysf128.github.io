@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-brand">Your Name</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Research</h1>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="research-interests">
+                <h2>Research Interests</h2>
+                <ul class="interest-list">
+                    <li>AI Planning and Automated Reasoning</li>
+                    <li>Epistemic Planning and Belief Models</li>
+                    <li>Search Algorithms (Jump Point Search, A*)</li>
+                    <li>Multi-Agent Systems</li>
+                    <li>Game AI and Strategic Reasoning</li>
+                    <li>Knowledge Representation</li>
+                </ul>
+            </div>
+
+            <div class="research-projects">
+                <h2>Current Projects</h2>
+                <div class="project-list">
+                    <div class="project-card">
+                        <h3>Converting E-PDDL to Functional PDDL for Epistemic Planning</h3>
+                        <p class="project-status">Status: Active (Deadline: April 30, 2026)</p>
+                        <p>
+                            Epistemic planning, planning about the knowledge and beliefs of the agents themselves and possibly other agents, is significant for multi-agent and human-agent interaction domains. The existing state-of-the-art epistemic planning tools include many different approaches, such as dynamic epistemic logic (DEL), compilations into classical planning, and state-based approaches.
+                        </p>
+                        <p>
+                            This project aims to connect the competition language (EPDDL), introduced by the First International Epistemic Planning Competition (IEPC) co-located with ICAPS 2026, with the F-PDDL representation used in state-based approaches and to conduct systematic comparative experiments between the two frameworks.
+                        </p>
+                        <p><strong>Expected Outcomes:</strong></p>
+                        <ul style="margin: 10px 0; padding-left: 20px;">
+                            <li>A translation framework (tool or script) participating in the IEPC</li>
+                            <li>Formal comparison analysis</li>
+                            <li>A technical abstract to ICAPS 2026</li>
+                        </ul>
+                        <p style="margin-top: 10px; font-size: 0.95rem;">
+                            <strong>Contact:</strong> <a href="mailto:guang.hu@unimelb.edu.au">guang.hu@unimelb.edu.au</a> for quicker response
+                        </p>
+                        <div class="project-keywords">
+                            <span>Epistemic Planning</span>
+                            <span>PDDL</span>
+                            <span>Knowledge Representation</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Measurement of Trust in AI through the Lens of Subjective Logic</h3>
+                        <p class="project-status">Status: Active</p>
+                        <p>
+                            Rapid development in artificial intelligence technology has enabled many tasks to be performed by AI systems. However, due to the complexity and opaqueness of AI technology, user confidence in AI systems has become a significant challenge. This project proposes a framework based on Subjective Logic to measure users' perceived trust and demonstrated trust in AI systems.
+                        </p>
+                        <p>
+                            Users' trust in AI systems can be viewed as both a belief (perceived trust) and a behaviour (demonstrated trust). Subjective Logic was developed by Audun Jøsang as a second-order probabilistic logic to reason over cognitive concepts such as beliefs and behaviours in the presence of knowledge uncertainty.
+                        </p>
+                        <p>
+                            Subjective Logic provides a formal probabilistic framework that explicitly represents: Belief, Disbelief, Uncertainty, and Base rate (prior probability). This makes it particularly suitable for modeling trust under incomplete or conflicting evidence.
+                        </p>
+                        <p><strong>Project Objectives:</strong></p>
+                        <ul style="margin: 10px 0; padding-left: 20px;">
+                            <li>Propose a new trust modeling framework based on Subjective Logic</li>
+                            <li>Define trust as subjective opinions and formalize trust update operators</li>
+                            <li>Model evidence fusion and propagation</li>
+                            <li>Compare the proposed framework with traditional trust models through theoretical and simulation-based evaluation</li>
+                            <li>(Optional) Apply the framework to multi-agent or human-agent scenarios</li>
+                        </ul>
+                        <div class="project-keywords">
+                            <span>Trust Modeling</span>
+                            <span>Subjective Logic</span>
+                            <span>AI Ethics</span>
+                            <span>Uncertainty Reasoning</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Domain-Independent Active Goal Recognition: An Empirical Study</h3>
+                        <p class="project-status">Status: Active (Collaborator: Dr. Chenyuan Zhang, Monash University)</p>
+                        <p>
+                            In multi-agent environments, effective interaction critically depends on understanding the beliefs and intentions of other agents. While traditional goal recognition approaches typically model the observer as a passive reasoner, Active Goal Recognition (AGR) emphasizes strategic action selection to actively reduce uncertainty about an agent's hidden goal.
+                        </p>
+                        <p>
+                            Recent work (Zhang et al., 2025) proposes a probabilistic framework for AGR that integrates joint belief updating with Monte Carlo Tree Search (MCTS) planning. However, the generalizability of this approach remains largely unexplored, as evaluation was restricted to a single domain.
+                        </p>
+                        <p>
+                            This project aims to systematically evaluate AGR methods across a broader range of environments, including classical benchmark domains and more realistic, partially observable domains implemented within the OpenGym framework.
+                        </p>
+                        <p style="margin-top: 10px; font-size: 0.95rem;">
+                            <strong>Contact:</strong> Dr. Chenyuan Zhang (<a href="mailto:chenyuan.zhang@monash.edu">chenyuan.zhang@monash.edu</a>) - Please attach CV and academic transcript
+                        </p>
+                        <div class="project-keywords">
+                            <span>Goal Recognition</span>
+                            <span>Multi-Agent Systems</span>
+                            <span>Belief Reasoning</span>
+                            <span>MCTS Planning</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>From LLM Baselines to Neuro-Symbolic Agents: Optimal Play in Tofu Kingdom</h3>
+                        <p class="project-status">Status: Active (Collaborator: Dr. Chenyuan Zhang, Monash University)</p>
+                        <p>
+                            Tofu Kingdom is a social deduction party game in which one player (Prince Mochi) questions other players about their hidden roles to identify Princess Tofu. Depending on their role, players may be required to answer truthfully or to bluff. This combination of strategic questioning, inference under deception, and planning makes the game a compelling testbed for studying strategic decision-making.
+                        </p>
+                        <p>
+                            This project investigates what constitutes an optimal strategy for both the Prince and non-Prince players. We evaluate state-of-the-art generative AI methods on the game's core sub-tasks (question selection, response generation, and final identification), and examine how symbolic modeling can complement and strengthen these methods.
+                        </p>
+                        <p>
+                            The work aims to generate insights into strategy generation and agency under deception, and to assess the value of neuro-symbolic integration for LLM-based agents operating in epistemic and social reasoning environments.
+                        </p>
+                        <p style="margin-top: 10px; font-size: 0.95rem;">
+                            <strong>Gameplay Introduction:</strong> <a href="https://www.youtube.com/watch?v=ZB35ghGXoM8" target="_blank">Watch Tofu Kingdom Gameplay</a>
+                        </p>
+                        <p style="margin-top: 10px; font-size: 0.95rem;">
+                            <strong>Contact:</strong> Dr. Chenyuan Zhang (<a href="mailto:chenyuan.zhang@monash.edu">chenyuan.zhang@monash.edu</a>) - Please attach CV and academic transcript
+                        </p>
+                        <div class="project-keywords">
+                            <span>LLM</span>
+                            <span>Neuro-Symbolic AI</span>
+                            <span>Game Theory</span>
+                            <span>Deception & Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-collaboration">
+                <h2>Collaboration & Supervision</h2>
+                <p>
+                    I actively collaborate with researchers both within and outside the university. 
+                    I am always interested in supervising student research projects in the areas of 
+                    AI planning, search algorithms, and autonomous systems.
+                </p>
+                <p>
+                    If you are interested in collaborating or would like to discuss research opportunities, 
+                    please <a href="contact.html">contact me</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
