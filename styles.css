@@ -167,7 +167,7 @@ nav .container {
     padding-bottom: 1rem;
     border-bottom: 3px solid var(--secondary-color);
 }
-Welcome Section */
+/* Welcome Section */
 .welcome-content {
     max-width: 900px;
     margin: 0 auto;
@@ -415,6 +415,33 @@ Welcome Section */
 }
 
 /* Teaching Section */
+.teaching-roles {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.teaching-roles th,
+.teaching-roles td {
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.teaching-roles th {
+    background-color: var(--light-bg);
+}
+
+.teaching-roles a {
+    color: var(--primary-color);
+    text-underline-offset: 0.15em;
+}
+
+.online-development {
+    margin-bottom: 3rem;
+}
+
 .courses {
     margin-top: 1.5rem;
 }
